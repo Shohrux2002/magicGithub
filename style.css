@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  color: #333;
+}
+.header {
+  background-color: rgb(0, 136, 255);
+  width: 100%;
+}
+.logo {
+  font-size: 24px;
+  padding: 10px 0;
+  color: #fff;
+}
+.block {
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+section {
+  background-color: rgb(246, 246, 246);
+  padding: 10px;
+  box-shadow: 0 0px 4px rgba(0, 0, 0, 0.341);
+}
+.search {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.heading--first {
+  font-size: 44px;
+}
+.search--label {
+  font-size: 24px;
+}
+.search--input {
+  width: 98%;
+  border: 0.5px solid rgba(7, 225, 233, 0.341);
+  background-color: rgb(246, 246, 246);
+  padding: 10px;
+  font-size: 18px;
+}
+input:focus {
+  outline: none;
+  box-shadow: 0 0 6px rgba(7, 225, 233, 0.341);
+}
+.user__info {
+  display: flex;
+  gap: 30px;
+}
+a {
+  text-decoration: none;
+}
+.user--img {
+  width: 100%;
+}
+.account {
+  width: 30%;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  gap: 10px;
+}
+.info__work {
+  width: 65%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.btn {
+  background-color: rgb(0, 136, 255);
+  padding: 5px;
+  color: #fff;
+  font-size: 14px;
+  border-radius: 5px;
+  text-align: center;
+}
+.heading--secondary {
+  font-size: 32px;
+  margin: 20px auto;
+}
+.btn--account {
+  font-size: 32px;
+}
+.btns {
+  display: flex;
+  gap: 8px;
+}
+.btn--gists,
+.btn--watch {
+  background-color: rgb(90, 90, 90);
+}
+.btn--forks,
+.btn--followers {
+  background-color: rgb(7, 190, 7);
+}
+.btn--following {
+  background-color: rgb(2, 125, 125);
+}
+.tab {
+  padding: 15px;
+  border: 0.1px solid #333;
+  font-size: 18px;
+}
+.section--repos {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.box {
+  display: flex;
+  justify-content: space-between;
+}
+.mar {
+  margin-right: 20%;
+}
+.repos-name {
+  font-size: 18px;
+}
